@@ -4,6 +4,11 @@
   <artifactId>SimpleJspServletDB</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -40,7 +45,67 @@
 			<server>TomcatServer</server>
 			<path>/SimpleJspServletDB</path>
 		</configuration>
-	</plugin>
-    </plugins>
+		</plugin>
+		<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<linkXref>true</linkXref>
+					<sourceEncoding>utf-8</sourceEncoding>
+					<targetJdk>1.7</targetJdk>
+				</configuration>
+		</plugin>
+		
+	</plugins>
   </build>
+  <reporting>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jxr-plugin</artifactId>
+			<version>2.3</version>
+		</plugin>
+		
+		<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>findbugs-maven-plugin</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+		</plugin>
+		
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-pmd-plugin</artifactId>
+			<version>3.2</version>
+			<configuration>
+			     <targetJdk>1.6</targetJdk>
+			</configuration>
+		</plugin>
+		
+		<plugin>
+		<groupId>org.apache.maven.</groupId>
+			<artifactId>maven-checkstyle-plugin</artifactId>
+			<version>2.10</version>
+			<configuration>
+		       	<sourceDirectory>src</sourceDirectory>
+			</configuration>
+		</plugin>
+		
+		<plugin>
+			<artifactId>maven-project-info-reports-plugin</artifactId>
+			<version>2.7</version>
+		</plugin>
+		
+		
+	</plugins>
+</reporting>
+
+<dependencies>
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+		<version>3.0-alpha-1</version>
+		<scope>provided</scope>
+	</dependency>
+</dependencies>
 </project>
