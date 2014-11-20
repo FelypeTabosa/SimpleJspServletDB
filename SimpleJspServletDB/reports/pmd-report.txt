@@ -1,0 +1,162 @@
+src/com/daniel/controller/UserController.java:18:	headerCommentRequirement Required
+src/com/daniel/controller/UserController.java:19:	fieldCommentRequirement Required
+src/com/daniel/controller/UserController.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'INSERT_OR_EDIT' is not final.
+src/com/daniel/controller/UserController.java:20:	The field name indicates a constant but its modifiers do not
+src/com/daniel/controller/UserController.java:20:	Variables should start with a lowercase character, 'INSERT_OR_EDIT' starts with uppercase character.
+src/com/daniel/controller/UserController.java:20:	fieldCommentRequirement Required
+src/com/daniel/controller/UserController.java:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LIST_USER' is not final.
+src/com/daniel/controller/UserController.java:21:	The field name indicates a constant but its modifiers do not
+src/com/daniel/controller/UserController.java:21:	Variables should start with a lowercase character, 'LIST_USER' starts with uppercase character.
+src/com/daniel/controller/UserController.java:21:	fieldCommentRequirement Required
+src/com/daniel/controller/UserController.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/daniel/controller/UserController.java:22:	Private field 'dao' could be made final; it is only initialized in the declaration or constructor.
+src/com/daniel/controller/UserController.java:22:	fieldCommentRequirement Required
+src/com/daniel/controller/UserController.java:24:	publicMethodCommentRequirement Required
+src/com/daniel/controller/UserController.java:29:	Parameter 'request' is not assigned and could be declared final
+src/com/daniel/controller/UserController.java:29:	Parameter 'response' is not assigned and could be declared final
+src/com/daniel/controller/UserController.java:29:	protectedMethodCommentRequirement Required
+src/com/daniel/controller/UserController.java:30:	Found 'DD'-anomaly for variable 'forward' (lines '30'-'36').
+src/com/daniel/controller/UserController.java:30:	Found 'DD'-anomaly for variable 'forward' (lines '30'-'39').
+src/com/daniel/controller/UserController.java:30:	Found 'DD'-anomaly for variable 'forward' (lines '30'-'44').
+src/com/daniel/controller/UserController.java:30:	Found 'DD'-anomaly for variable 'forward' (lines '30'-'47').
+src/com/daniel/controller/UserController.java:31:	Local variable 'action' could be declared final
+src/com/daniel/controller/UserController.java:33:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/daniel/controller/UserController.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/controller/UserController.java:34:	Local variable 'userId' could be declared final
+src/com/daniel/controller/UserController.java:38:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/daniel/controller/UserController.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/controller/UserController.java:40:	Local variable 'userId' could be declared final
+src/com/daniel/controller/UserController.java:41:	Local variable 'user' could be declared final
+src/com/daniel/controller/UserController.java:43:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/daniel/controller/UserController.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/controller/UserController.java:50:	Local variable 'view' could be declared final
+src/com/daniel/controller/UserController.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/controller/UserController.java:54:	Parameter 'request' is not assigned and could be declared final
+src/com/daniel/controller/UserController.java:54:	Parameter 'response' is not assigned and could be declared final
+src/com/daniel/controller/UserController.java:54:	protectedMethodCommentRequirement Required
+src/com/daniel/controller/UserController.java:55:	Local variable 'user' could be declared final
+src/com/daniel/controller/UserController.java:59:	Local variable 'dob' could be declared final
+src/com/daniel/controller/UserController.java:59:	When instantiating a SimpleDateFormat object, specify a Locale
+src/com/daniel/controller/UserController.java:62:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/controller/UserController.java:65:	Local variable 'userid' could be declared final
+src/com/daniel/controller/UserController.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/controller/UserController.java:75:	Local variable 'view' could be declared final
+src/com/daniel/controller/UserController.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:13:	headerCommentRequirement Required
+src/com/daniel/dao/UserDao.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/daniel/dao/UserDao.java:15:	Private field 'connection' could be made final; it is only initialized in the declaration or constructor.
+src/com/daniel/dao/UserDao.java:15:	fieldCommentRequirement Required
+src/com/daniel/dao/UserDao.java:17:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:21:	Parameter 'user' is not assigned and could be declared final
+src/com/daniel/dao/UserDao.java:21:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:23:	Local variable 'preparedStatement' could be declared final
+src/com/daniel/dao/UserDao.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/com/daniel/dao/UserDao.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:33:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/dao/UserDao.java:37:	Parameter 'userId' is not assigned and could be declared final
+src/com/daniel/dao/UserDao.java:37:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:39:	Local variable 'preparedStatement' could be declared final
+src/com/daniel/dao/UserDao.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:46:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/dao/UserDao.java:50:	Parameter 'user' is not assigned and could be declared final
+src/com/daniel/dao/UserDao.java:50:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:52:	Local variable 'preparedStatement' could be declared final
+src/com/daniel/dao/UserDao.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/com/daniel/dao/UserDao.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:61:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:64:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/dao/UserDao.java:68:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:69:	Local variable 'users' could be declared final
+src/com/daniel/dao/UserDao.java:71:	Ensure that resources like this Statement object are closed after use
+src/com/daniel/dao/UserDao.java:71:	Local variable 'statement' could be declared final
+src/com/daniel/dao/UserDao.java:72:	Avoid variables with short names like rs
+src/com/daniel/dao/UserDao.java:72:	Ensure that resources like this ResultSet object are closed after use
+src/com/daniel/dao/UserDao.java:72:	Local variable 'rs' could be declared final
+src/com/daniel/dao/UserDao.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:73:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:74:	Avoid instantiating new objects inside loops
+src/com/daniel/dao/UserDao.java:74:	Local variable 'user' could be declared final
+src/com/daniel/dao/UserDao.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:83:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/dao/UserDao.java:89:	Parameter 'userId' is not assigned and could be declared final
+src/com/daniel/dao/UserDao.java:89:	publicMethodCommentRequirement Required
+src/com/daniel/dao/UserDao.java:90:	Local variable 'user' could be declared final
+src/com/daniel/dao/UserDao.java:92:	Local variable 'preparedStatement' could be declared final
+src/com/daniel/dao/UserDao.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:95:	Avoid variables with short names like rs
+src/com/daniel/dao/UserDao.java:95:	Ensure that resources like this ResultSet object are closed after use
+src/com/daniel/dao/UserDao.java:95:	Local variable 'rs' could be declared final
+src/com/daniel/dao/UserDao.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:97:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/dao/UserDao.java:105:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/model/User.java:5:	Avoid short class names like User
+src/com/daniel/model/User.java:5:	Each class should declare at least one constructor
+src/com/daniel/model/User.java:5:	headerCommentRequirement Required
+src/com/daniel/model/User.java:7:	fieldCommentRequirement Required
+src/com/daniel/model/User.java:8:	fieldCommentRequirement Required
+src/com/daniel/model/User.java:9:	fieldCommentRequirement Required
+src/com/daniel/model/User.java:10:	fieldCommentRequirement Required
+src/com/daniel/model/User.java:11:	fieldCommentRequirement Required
+src/com/daniel/model/User.java:12:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:15:	Parameter 'userid' is not assigned and could be declared final
+src/com/daniel/model/User.java:15:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:18:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:21:	Parameter 'firstName' is not assigned and could be declared final
+src/com/daniel/model/User.java:21:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:24:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:27:	Parameter 'lastName' is not assigned and could be declared final
+src/com/daniel/model/User.java:27:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:30:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:33:	Parameter 'dob' is not assigned and could be declared final
+src/com/daniel/model/User.java:33:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:36:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:39:	Parameter 'email' is not assigned and could be declared final
+src/com/daniel/model/User.java:39:	publicMethodCommentRequirement Required
+src/com/daniel/model/User.java:43:	publicMethodCommentRequirement Required
+src/com/daniel/util/DbUtil.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/daniel/util/DbUtil.java:11:	headerCommentRequirement Required
+src/com/daniel/util/DbUtil.java:12:	Avoid using redundant field initializer for 'connection'
+src/com/daniel/util/DbUtil.java:12:	fieldCommentRequirement Required
+src/com/daniel/util/DbUtil.java:14:	publicMethodCommentRequirement Required
+src/com/daniel/util/DbUtil.java:15:	Avoid if (x != y) ..; else ..;
+src/com/daniel/util/DbUtil.java:15:	Singleton is not thread safe
+src/com/daniel/util/DbUtil.java:16:	A method should have only one exit point, and that should be the last statement in the method
+src/com/daniel/util/DbUtil.java:16:	Avoid using if...else statements without curly braces
+src/com/daniel/util/DbUtil.java:19:	Local variable 'prop' could be declared final
+src/com/daniel/util/DbUtil.java:20:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/com/daniel/util/DbUtil.java:20:	Local variable 'inputStream' could be declared final
+src/com/daniel/util/DbUtil.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/com/daniel/util/DbUtil.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/com/daniel/util/DbUtil.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:22:	Local variable 'driver' could be declared final
+src/com/daniel/util/DbUtil.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:23:	Local variable 'url' could be declared final
+src/com/daniel/util/DbUtil.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:24:	Local variable 'user' could be declared final
+src/com/daniel/util/DbUtil.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:25:	Local variable 'password' could be declared final
+src/com/daniel/util/DbUtil.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:29:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/util/DbUtil.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:31:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/util/DbUtil.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:33:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/util/DbUtil.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/daniel/util/DbUtil.java:35:	Avoid printStackTrace(); use a logger call instead.
+src/com/daniel/util/DbUtil.java:35:	Potential violation of Law of Demeter (object not created locally)
