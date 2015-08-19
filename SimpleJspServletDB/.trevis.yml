@@ -1,7 +1,1 @@
 language: java
-install: ./install-dependencies.sh
-jdk:
-- openjdk7
-- oraclejdk7
-- oraclejdk8
-script: mvn compile
