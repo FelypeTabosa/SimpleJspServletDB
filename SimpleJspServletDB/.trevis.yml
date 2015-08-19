@@ -1,1 +1,11 @@
 language: java
+jdk:
+  - OpenJDK6
+script:
+  mvn verificar
+after_success:
+  - Chmod a + x deploy.sh
+  - ./deploy.sh
+after_failure:
+  - Cat. Com.codeaffine.module-a / target / infalível-reportagens / * txt
+  - Cat. Com.codeaffine.module-b / target / infalível-relatórios / * txt
